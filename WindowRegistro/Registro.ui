@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RegistroClass</class>
+ <widget class="QDialog" name="RegistroClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>356</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Registro</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-radius:30 ;
+background-color: rgb(120, 140, 255);</string>
+  </property>
+  <widget class="QPushButton" name="pushButtonLogin">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>340</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LayoutDirection::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    font: 900 9pt &quot;Montserrat&quot;;
+    background-color: rgb(255, 137, 33);
+    border: 3px solid #ff8921;
+    selection-background-color: rgb(186, 100, 47);
+}
+QPushButton:hover {
+    background-color: rgb(255, 160, 70);
+    border: 3px solid #ffa94d; 
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Registrarse</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget_5" native="true">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>60</y>
+     <width>261</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <widget class="QLineEdit" name="lineEditEmail_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>10</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>IBeamCursor</cursorShape>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-top-left-radius: 0px;
+border-bottom-left-radius: 0px;
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+border-right-color: rgb(120, 140, 255);
+border-right: 3px solid #5663b6;
+border-top:3px solid #5663b6;
+border-bottom:3px solid #5663b6;
+background-color: rgb(115, 134, 244);
+color: white;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>nombre</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="Correo_5" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+border-right:none;
+background-color: rgb(115, 134, 244);
+border-left: 3px solid #5663b6;
+border-top: 3px solid #5663b6;
+border-bottom: 3px solid #5663b6;
+
+
+</string>
+    </property>
+    <widget class="QLabel" name="Correo_6">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+border-right:none;
+background-color: rgb(115, 134, 244);
+border-left: 3px solid #5663b6;
+border-top: 3px solid #5663b6;
+border-bottom: 3px solid #5663b6;
+
+
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="../../../../Estructura_de_datos/HandyMatch/App2/HandyMatch1/HandyMatch1.qrc">:/new/prefix1/usuario.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignBottom|Qt::AlignmentFlag::AlignHCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+     <property name="margin">
+      <number>6</number>
+     </property>
+     <property name="indent">
+      <number>0</number>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>300</y>
+     <width>121</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 9pt &quot;Montserrat&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Trabajador</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget_8" native="true">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>200</y>
+     <width>271</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <widget class="QLineEdit" name="lineEditContrasena">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>0</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>IBeamCursor</cursorShape>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-top-left-radius: 0px;
+border-bottom-left-radius: 0px;
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+border-right-color: rgb(120, 140, 255);
+border-right: 3px solid #5663b6;
+border-top:3px solid #5663b6;
+border-bottom:3px solid #5663b6;
+background-color: rgb(115, 134, 244);
+color: white;
+</string>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::InputMethodHint::ImhHiddenText</set>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Contraseña</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Candado">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+border-right:none;
+background-color: rgb(115, 134, 244);
+border-left: 3px solid #5663b6;
+border-top: 3px solid #5663b6;
+border-bottom: 3px solid #5663b6;
+
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../../../../Estructura_de_datos/HandyMatch/App2/HandyMatch1/HandyMatch1.qrc">:/new/prefix1/cerrar.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignBottom|Qt::AlignmentFlag::AlignHCenter</set>
+    </property>
+    <property name="margin">
+     <number>6</number>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_4" native="true">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>120</y>
+     <width>261</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <widget class="QLineEdit" name="lineEditEmail">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>10</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>IBeamCursor</cursorShape>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-top-left-radius: 0px;
+border-bottom-left-radius: 0px;
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+border-right-color: rgb(120, 140, 255);
+border-right: 3px solid #5663b6;
+border-top:3px solid #5663b6;
+border-bottom:3px solid #5663b6;
+background-color: rgb(115, 134, 244);
+color: white;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Correo electronico</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="Correo_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+border-right:none;
+background-color: rgb(115, 134, 244);
+border-left: 3px solid #5663b6;
+border-top: 3px solid #5663b6;
+border-bottom: 3px solid #5663b6;
+
+
+</string>
+    </property>
+    <widget class="QLabel" name="Correo">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+border-right:none;
+background-color: rgb(115, 134, 244);
+border-left: 3px solid #5663b6;
+border-top: 3px solid #5663b6;
+border-bottom: 3px solid #5663b6;
+
+
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="../../../../Estructura_de_datos/HandyMatch/App2/HandyMatch1/HandyMatch1.qrc">:/new/prefix1/sobre.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignBottom|Qt::AlignmentFlag::AlignHCenter</set>
+     </property>
+     <property name="margin">
+      <number>6</number>
+     </property>
+     <property name="indent">
+      <number>0</number>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="Registrarse_2">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>10</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LayoutDirection::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 800 italic 20pt &quot;Montserrat&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;REGISTRO&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>260</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 9pt &quot;Montserrat&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Empleador</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="../../../../Estructura_de_datos/HandyMatch/App2/HandyMatch1/HandyMatch1.qrc"/>
+  <include location="MainWindow.qrc"/>
+ </resources>
+ <connections/>
+</ui>
